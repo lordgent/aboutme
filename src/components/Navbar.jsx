@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Navbar() {
   const [toogle, settoogle] = useState(false);
   return (
-    <div className="bg-zinc-800	z-60 w-full px-10 py-4 lg:flex items-center fixed top">
+    <div className="bg-zinc-800	z-40 w-full px-10 py-4 lg:flex items-center fixed top">
       <div className="flex justify-between text-white items-center">
         <div className="items-center">
           <p className="font-mono font-bold text-lg">{`Lordgent`}</p>
