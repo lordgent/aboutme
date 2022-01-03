@@ -1,5 +1,5 @@
 import React from "react";
-import { me, node, redux, reactjs, csstail, metwo } from "../assets/index";
+import { node, redux, reactjs, metwo } from "../assets/index";
 import Aboutme from "./atoms/Aboutme";
 function Jumbotron() {
   return (
