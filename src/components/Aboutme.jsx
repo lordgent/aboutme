@@ -4,12 +4,12 @@ function Aboutme() {
   return (
     <div className="px-4 bg-zinc-900 h-full pt-10 pb-10">
       <p className="text-center font-mono text-2xl mb-2">About me</p>
-      <div className="flex px-10 lg:px-40 items-center">
-        <div className="w-3/5 ">
+      <div className="lg:flex block px-10 lg:px-40 items-center">
+        <div className="w-3/5 mx-auto lg:mx-0">
           <img src={aboutme} alt="imageme" className="w-80 " />
         </div>
-        <div className=" w-3/5">
-          <p className="font-mono text-xs mt-2">
+        <div className="w-full lg:w-3/5 mx-auto lg:mx-0">
+          <p className="font-mono text-xs mt-4">
             Saya Memiliki kemampuan dalam membuat Web dan basic Aplikasi
             Android. Stack yang sering saya gunakan adalah <b>Front-End</b>:
             ReactJs/NextJs - React Native - TailwindCss - Bootstrap dan
