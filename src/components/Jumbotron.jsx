@@ -13,17 +13,18 @@ function Jumbotron() {
           alt="imageme"
           className="lg:w-full w-3/5 mx-auto lg:mx-0"
         />
-        <img
-          src={reactjs}
-          alt="imageicon"
-          width="45"
-          className="z-20 absolute shadow-blue-500	shadow-lg lg:bloxk   top-60 rounded-full bg-black p-2"
-        />
-        <div className="bg-black p-2 rounded-full z-20 shadow-purple-500 shadow-lg lg:bloxk    absolute top-80  bg-black">
-          <img src={redux} alt="imageicon" width="30" className=" " />
+        <div className="bg-black p-2 rounded-full z-20 shadow-blue-500 shadow-lg lg:bloxk    absolute top-60  bg-black">
+          <img
+            src={reactjs}
+            alt="imageicon"
+            className="z-20 lg:w-8 w-4 h-4 lg:h-8"
+          />
         </div>
-        <div className="bg-black py-4 px-2 shadow-green-500	shadow-lg lg:bloxk  rounded-full z-20 absolute right-28 top-64">
-          <img src={node} alt="imageicon" width="40" />
+        <div className="bg-black p-2 rounded-full z-20 shadow-purple-500 shadow-lg lg:bloxk    absolute top-80  bg-black">
+          <img src={redux} alt="imageicon" className="lg:w-8 w-4 h-4 lg:h-8" />
+        </div>
+        <div className="bg-black py-2 px-2 shadow-green-500	shadow-lg lg:bloxk  rounded-full z-20 absolute right-28 top-64">
+          <img src={node} alt="imageicon" className="lg:w-8 w-4 h-4 lg:h-8" />
         </div>
       </div>
     </div>
